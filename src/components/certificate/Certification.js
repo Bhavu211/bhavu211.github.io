@@ -29,7 +29,7 @@ export default function Certification() {
                             <div className="cert-card">
                               <div className="content">
                                 <a
-                                  href="https://www.linkedin.com/in/bhawna-mangla-1102/overlay/1635524927449/single-media-viewer/?profileId=ACoAAB5kbY8BXoXgEygFbn9qyoSOLrQ9w5P-uIY"
+                                  href="https://drive.google.com/file/d/1fXijiYJaLznfqloG-DlcujIpcxSOMBOl/view?usp=sharing"
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >
@@ -82,7 +82,7 @@ export default function Certification() {
                             <div className="cert-card">
                               <div className="content">
                                 <a
-                                  href={"https://www.linkedin.com/in/bhawna-mangla-1102/overlay/1635524925633/single-media-viewer/?profileId=ACoAAB5kbY8BXoXgEygFbn9qyoSOLrQ9w5P-uIY"}
+                                  href={"https://drive.google.com/file/d/1c-qIiC3FmP927SlOWkV_rA9QhrxCGVbM/view?usp=sharing"}
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >

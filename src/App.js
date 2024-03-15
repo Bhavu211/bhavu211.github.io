@@ -23,11 +23,15 @@ import ComingSoon from "./pages/comingsoon_page/comingsoon";
 import Notfound from "./pages/blogs_page/notfound";
 import TechnicalJourney from "./components/aboutme/journey/TechnicalJourney";
 import ProjectJourney from "./components/aboutme/journey/ProjectJourney";
+import ReactGA from "react-ga4";
 import SocialMedia from "./components/aboutme/social_media/SocialMedia";
 // import Zoom from 'react-reveal/Zoom';
 import Toolkit from "./components/aboutme/skills/Toolkit";
 import Mediumblogs from "./pages/blogs_page/Mediumblogs";
 import mediumblog from "./components/blog/MediumBlog";
+
+ReactGA.initialize('G-VBJ90QL1X7');
+
 function App() {
   const [load, updateLoad] = useState(true);
 
