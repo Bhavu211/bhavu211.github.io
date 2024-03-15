@@ -36,6 +36,7 @@ function App() {
   const [load, updateLoad] = useState(true);
 
   useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: "https://bhavu211.github.io/", title: "Homepage" });
     const timer = setTimeout(() => {
       updateLoad(false);
     }, 4000);
