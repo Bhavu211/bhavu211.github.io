@@ -104,6 +104,7 @@ export default function Home() {
       <AboutmeContainer />
       <Certification />
       <MediumBlog />
+      <Projects />
       <Contactus />
     </section>
   );
