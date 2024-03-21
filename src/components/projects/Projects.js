@@ -145,7 +145,7 @@ export default function Projects() {
                         </Col>
           </Row>
           <div className="blog--viewAll">
-            <Link to="/projectspage">
+            <Link to="/projectpage">
               <button className="btn btn-primary">
                 View All
                 <HiArrowRight className="viewArr" />
