@@ -8,6 +8,7 @@ import ci from "../../images/onboarding.png";
 import hd from "../../images/hd.png";
 import eco from "../../images/eco.png";
 import pp from "../../images/portfolio.png";
+import votingdapp from "../../images/votingdapp.png";
 import meal from "../../images/meal.png";
 import ac from "../../images/academic.png";
 import age from "../../images/age.png";
@@ -113,7 +114,7 @@ export default function ProjectPage() {
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                                   Online Voting System - DApp
                                 </h5>
-                                <img src={pp} alt={pp} />
+                                <img src={votingdapp} alt={votingdapp} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={

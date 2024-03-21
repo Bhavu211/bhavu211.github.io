@@ -6,6 +6,7 @@ import nyc from "../../images/nyc.png";
 import ci from "../../images/onboarding.png";
 import hd from "../../images/hd.png";
 import pp from "../../images/portfolio.png";
+import votingdapp from "../../images/votingdapp.png";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
@@ -98,7 +99,7 @@ export default function Projects() {
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                                   Online Voting System - DApp
                                 </h5>
-                                <img src={pp} alt={pp} />
+                                <img src={votingdapp} alt={votingdapp} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
