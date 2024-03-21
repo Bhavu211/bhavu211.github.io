@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.54d5b56f.css",
-    "main.js": "/static/js/main.569d157d.js",
+    "main.js": "/static/js/main.a44e677f.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/nyc.png": "/static/media/nyc.139298242835d62facd4.png",
@@ -39,19 +39,19 @@
     "static/media/pre.svg": "/static/media/pre.e4c81c26304bc309eb55.svg",
     "static/media/h3.jpg": "/static/media/h3.dc52d5d40a40b13154b0.jpg",
     "static/media/Canva.png": "/static/media/Canva.b1d9016e04bcd163d6cd.png",
-    "static/media/figma.png": "/static/media/figma.e83c55b1efc7588766dc.png",
     "static/media/chatgpt.png": "/static/media/chatgpt.22a49b766bb7291fba96.png",
     "static/media/age.png": "/static/media/age.4c61218df990d2501f64.png",
+    "static/media/figma.png": "/static/media/figma.92360ec0abb776802cfb.png",
     "static/media/calendar.png": "/static/media/calendar.88c5e6578229aaa9bbc4.png",
     "static/media/chorme.svg": "/static/media/chorme.76eb99c03649b560eca4188fff132dcf.svg",
     "index.html": "/index.html",
     "main.54d5b56f.css.map": "/static/css/main.54d5b56f.css.map",
-    "main.569d157d.js.map": "/static/js/main.569d157d.js.map",
+    "main.a44e677f.js.map": "/static/js/main.a44e677f.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54d5b56f.css",
-    "static/js/main.569d157d.js"
+    "static/js/main.a44e677f.js"
   ]
 }
