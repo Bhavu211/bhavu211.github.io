@@ -5,7 +5,7 @@ import pc from "../../../images/pc.png";
 import git from "../../../images/git.png";
 import github from "../../../images/github.png";
 import cb from "../../../images/cb.png";
-import Figma from "../../../images/figma.png";
+import figma from "../../../images/figma.png";
 import Canva from "../../../images/Canva.png";
 import pg from "../../../images/pg.png";
 import chatgpt from "../../../images/chatgpt.png";
@@ -40,7 +40,7 @@ export default function Toolkit() {
             <img src={vs} alt="" style={{ width: "85%", height: "85%" }} />
           </Col>
           <Col xs={4} md={2} className="tech-icons">
-            <img src={Figma} alt="" style={{ width: "85%", height: "85%" }} />
+            <img src={figma} alt="" style={{ width: "85%", height: "85%" }} />
           </Col>
           <Col xs={4} md={2} className="tech-icons">
             <img src={git} alt="" style={{ width: "85%", height: "85%" }} />
