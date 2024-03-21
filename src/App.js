@@ -30,7 +30,7 @@ import Toolkit from "./components/aboutme/skills/Toolkit";
 import Mediumblogs from "./pages/blogs_page/Mediumblogs";
 import mediumblog from "./components/blog/MediumBlog";
 
-ReactGA.initialize('G-VBJ90QL1X7');
+ReactGA.initialize('G-3J7V3EZN20');
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -53,7 +53,7 @@ function App() {
           <Route path="/" element={<Home />}>
             <Route path="/" element={<About />}></Route>
             <Route path="personalskill" element={<PersonalSkill />} />
-            {/* <Route path="technicalskill" element={<TechnicalSkill />} /> */}
+            <Route path="technicalskill" element={<TechnicalSkill />} /> 
             <Route path="technicaljourney" element={<TechnicalJourney />} />
             <Route path="projectjourney" element={<ProjectJourney />} />
             <Route

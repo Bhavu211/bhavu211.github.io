@@ -48,7 +48,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  C
+                  Power BI
                 </h2>
               </div>
             </Col>
@@ -77,7 +77,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  C++
+                  Google Analytics
                 </h2>
               </div>
             </Col>
@@ -106,7 +106,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  Python
+                  Salesforce Admin
                 </h2>
               </div>
             </Col>
@@ -135,7 +135,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  Javascript
+                  Tableau
                 </h2>
               </div>
             </Col>
@@ -164,7 +164,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  MySQL
+                  Microsoft Azure
                 </h2>
               </div>
             </Col>
@@ -193,7 +193,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  NodeJS
+                  Jira
                 </h2>
               </div>
             </Col>
@@ -222,7 +222,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  React js
+                  Python
                 </h2>
               </div>
             </Col>
@@ -251,7 +251,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  PHP
+                  HTML/CSS
                 </h2>
               </div>
             </Col>
@@ -280,7 +280,123 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  JAVA
+                  SQL
+                </h2>
+              </div>
+            </Col>
+            <Col md={4}>
+              <h1
+                style={{ fontSize: "100px", color: "#54faae", fontWeight: 700 }}
+              >
+                75%
+              </h1>
+              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
+                <div class="progress">
+                  <div
+                    role={"progressbar"}
+                    id={"pm"}
+                    aria-valuenow={"85"}
+                    aria-valuemin={"0"}
+                    aria-valuemax={"100"}
+                    style={{ width: "85%" }}
+                  ></div>
+                </div>
+                <h2
+                  style={{
+                    color: "#54faae",
+                    fontSize: "25px",
+                    marginTop: "13px",
+                    fontWeight: 700,
+                  }}
+                >
+                  MS Suite
+                </h2>
+              </div>
+            </Col>
+            <Col md={4}>
+              <h1
+                style={{ fontSize: "100px", color: "#54faae", fontWeight: 700 }}
+              >
+                75%
+              </h1>
+              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
+                <div class="progress">
+                  <div
+                    role={"progressbar"}
+                    id={"pm"}
+                    aria-valuenow={"85"}
+                    aria-valuemin={"0"}
+                    aria-valuemax={"100"}
+                    style={{ width: "85%" }}
+                  ></div>
+                </div>
+                <h2
+                  style={{
+                    color: "#54faae",
+                    fontSize: "25px",
+                    marginTop: "13px",
+                    fontWeight: 700,
+                  }}
+                >
+                  Figma
+                </h2>
+              </div>
+            </Col>
+            <Col md={4}>
+              <h1
+                style={{ fontSize: "100px", color: "#54faae", fontWeight: 700 }}
+              >
+                75%
+              </h1>
+              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
+                <div class="progress">
+                  <div
+                    role={"progressbar"}
+                    id={"pm"}
+                    aria-valuenow={"85"}
+                    aria-valuemin={"0"}
+                    aria-valuemax={"100"}
+                    style={{ width: "85%" }}
+                  ></div>
+                </div>
+                <h2
+                  style={{
+                    color: "#54faae",
+                    fontSize: "25px",
+                    marginTop: "13px",
+                    fontWeight: 700,
+                  }}
+                >
+                Linux
+                </h2>
+              </div>
+            </Col>
+            <Col md={4}>
+              <h1
+                style={{ fontSize: "100px", color: "#54faae", fontWeight: 700 }}
+              >
+                75%
+              </h1>
+              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
+                <div class="progress">
+                  <div
+                    role={"progressbar"}
+                    id={"pm"}
+                    aria-valuenow={"85"}
+                    aria-valuemin={"0"}
+                    aria-valuemax={"100"}
+                    style={{ width: "85%" }}
+                  ></div>
+                </div>
+                <h2
+                  style={{
+                    color: "#54faae",
+                    fontSize: "25px",
+                    marginTop: "13px",
+                    fontWeight: 700,
+                  }}
+                >
+                  Wireshark
                 </h2>
               </div>
             </Col>

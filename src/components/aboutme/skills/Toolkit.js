@@ -5,7 +5,10 @@ import pc from "../../../images/pc.png";
 import git from "../../../images/git.png";
 import github from "../../../images/github.png";
 import cb from "../../../images/cb.png";
+import Figma from "../../../images/figma.png";
+import Canva from "../../../images/Canva.png";
 import pg from "../../../images/pg.png";
+import chatgpt from "../../../images/chatgpt.png";
 import pm from "../../../images/pm.png";
 import chrome from "../../../images/chorme.svg";
 import { Link } from "react-router-dom";
@@ -15,9 +18,9 @@ export default function Toolkit() {
   return (
     <div>
       <div className="mt-5 d-flex flex-row justify-content-center">
-        {/* <Link className="btn btn-primary me-3" to="/technicalSkill">
+        <Link className="btn btn-primary me-3" to="/technicalSkill">
           Technical Skill
-        </Link> */}
+        </Link>
         <Link className="btn btn-primary me-3" to="/personalskill">
           Personal Skill
         </Link>
@@ -30,11 +33,14 @@ export default function Toolkit() {
       </Zoom>
       <Container className="mt-4">
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+        <Col xs={4} md={2} className="tech-icons">
+            <img src={chatgpt} alt="" style={{ width: "85%", height: "85%" }} />
+          </Col>
           <Col xs={4} md={2} className="tech-icons">
             <img src={vs} alt="" style={{ width: "85%", height: "85%" }} />
           </Col>
           <Col xs={4} md={2} className="tech-icons">
-            <img src={pc} alt="" style={{ width: "85%", height: "85%" }} />
+            <img src={Figma} alt="" style={{ width: "85%", height: "85%" }} />
           </Col>
           <Col xs={4} md={2} className="tech-icons">
             <img src={git} alt="" style={{ width: "85%", height: "85%" }} />
@@ -51,7 +57,7 @@ export default function Toolkit() {
             />
           </Col>
           <Col xs={4} md={2} className="tech-icons">
-            <img src={cb} alt="" style={{ width: "95%", height: "95%" }} />
+            <img src={Canva} alt="" style={{ width: "95%", height: "95%" }} />
           </Col>
           <Col xs={4} md={2} className="tech-icons">
             <img src={pg} alt="" style={{ width: "95%", height: "95%" }} />

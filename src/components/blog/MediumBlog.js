@@ -19,7 +19,7 @@ export default function MediumBlog() {
               className="certificate-description d-flex justify-content-start"
             >
               <Zoom left cascade>
-                <h1 className="aboutme-heading">Blog</h1>
+                <h1 className="aboutme-heading">Blogs</h1>
               </Zoom>
             </Col>
                         <Col md={4}>
