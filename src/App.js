@@ -68,7 +68,7 @@ function App() {
             <Route path="socialmedia" element={<SocialMedia />}></Route>
             <Route path="toolkit" element={<Toolkit />}></Route>
           </Route>
-          <Route path="/projectspage" element={<ProjectPage />} />
+          <Route path="/projectpage" element={<ProjectPage />} />
           <Route path="/certificatepage" element={<CertificatePage />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/blogs" element={<Mediumblogs />} />

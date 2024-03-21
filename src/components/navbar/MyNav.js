@@ -69,7 +69,7 @@ export default function MyNav() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/projectspage"
+                to="/projectpage"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
