@@ -1,5 +1,3 @@
-# DNS configuration for bhavu211.github.io
-google-site-verification=o1fHSP6os6zIy0UzCLNuNRKCIaN7abDYE-6tI2VbkDg
 
 ![portfolio](https://github.com/Bhavu211/bhavu211.github.io/assets/49124956/327777e6-6205-4151-a627-6c63fc0be20d)
 
