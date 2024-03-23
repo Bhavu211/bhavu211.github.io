@@ -30,6 +30,7 @@ import Toolkit from "./components/aboutme/skills/Toolkit";
 import Mediumblogs from "./pages/blogs_page/Mediumblogs";
 import mediumblog from "./components/blog/MediumBlog";
 
+
 ReactGA.initialize('G-3J7V3EZN20');
 
 function App() {

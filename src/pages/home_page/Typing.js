@@ -6,7 +6,7 @@ function Typing() {
         <Typewriter
             options={{
                 strings: [
-                    "Product Manager",
+                    "Digital Product Manager",
                     "Product Owner",
                     "Technical Business Analyst",
                     "Technical Writer",
