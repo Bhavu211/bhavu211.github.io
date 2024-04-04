@@ -66,21 +66,20 @@ export default function MyNav() {
               </Nav.Link>
             </Nav.Item>
 
+           
             <Nav.Item>
+              
               <Nav.Link
                 as={Link}
-                to="/projectpage"
+                to="/case_studies"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                Case Studies
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              
-        
 
             <Nav.Item>
               <Nav.Link
