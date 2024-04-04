@@ -23,6 +23,7 @@ export default function ProjectPage() {
       <Container fluid id="home">
         <Particle />
         <Container className="home-content">
+          
           <div
             className="d-flex justify-content-center"
             width="100%"
@@ -162,10 +163,16 @@ export default function ProjectPage() {
               md={12}
               className="certificate-description d-flex justify-content-start"
             >
-              <Zoom left cascade>
-                <h1 className="aboutme-heading">Case Studies</h1>
-              </Zoom>
-            </Col>
+
+<div
+            className="d-flex justify-content-center"
+            width="100%"
+            style={{ backgroundColor: "#fbd9ad" }}
+          >
+            <Zoom left cascade>
+              <h1 style={{ color: "rgb(134 61 176" }}>CASE STUDIES</h1>
+            </Zoom>
+          </div>
             <Col md={3}>
               <Fade bottom>
                 <div
