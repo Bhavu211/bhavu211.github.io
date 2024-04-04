@@ -159,12 +159,18 @@ export default function ProjectPage() {
                             </div>
                           </Fade>
                         </Col>
-                        <Col
-              md={12}
-              className="certificate-description d-flex justify-content-start"
-            >
 
-<div
+
+
+                      </Row>
+                    </Col>
+                  </Row>
+                </Container>
+              </Container>
+            </div>
+          </div>
+
+          <div
             className="d-flex justify-content-center"
             width="100%"
             style={{ backgroundColor: "#fbd9ad" }}
@@ -173,67 +179,14 @@ export default function ProjectPage() {
               <h1 style={{ color: "rgb(134 61 176" }}>CASE STUDIES</h1>
             </Zoom>
           </div>
-            <Col md={3}>
-              <Fade bottom>
-                <div
-                  key={1}
-                  className="singleProject"
-                  style={{
-                    backgroundColor: "rgb(142 70 186 / 31%)",
-                    border: "1px solid",
-                  }}
-                >
-                  <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      RCA
-                    </h5>
-                    <img src={pp} alt={pp} />
-                    <div className="project--showcaseBtn">
-                      <a
-                        href={
-                          "https://github.com/Bhavu211/bhavu211.github.io"
-                        }
-                        target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <h6>
-                    <p
-                      className="project--desc"
-                      style={{
-                        background: "#fbd9ad",
-                        color: "#b061df",
-                        fontWeight: 600,
-                      }}
-                    >
-                      Welcome to my personal portfolio. Explore my work, skills,
-                      and achievements in a concise and visually appealing
-                      format. Get a glimpse of my expertise and creativity.
-                    </p>
-                  </h6>
-                  <div
-                    className="project--lang"
-                    style={{
-                      background: "#fbd9ad",
-                      color: "#b061df",
-                      fontWeight: 600,
-                    }}
-                  >
-                    HTML, CSS, SCSS, React, JavaScript
-                  </div>
-                </div>
-              </Fade>
-            </Col>
-            <Col md={3} className="col-sm-12 col-md-4">
+          <div>
+            <div>
+              <Container fluid className="certificate-section" id="about">
+                <Container>
+                  <Row>
+                    <Col md={12} className="mt-5">
+                      <Row className="g-5">
+                      <Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
                             <div
                               key={1}
@@ -245,7 +198,68 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Metrics
+                                  Root Cause Analysis
+                                </h5>
+                                <img src={pp} alt={pp} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://github.com/Bhavu211/bhavu211.github.io"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                  Welcome to my personal portfolio. Explore my
+                                  work, skills, and achievements in a concise
+                                  and visually appealing format. Get a glimpse
+                                  of my expertise and creativity.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                HTML, CSS, SCSS, React, JavaScript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  Guestimates
                                 </h5>
                                 <img src={votingdapp} alt={votingdapp} />
                                 <div className="project--showcaseBtn">
@@ -291,6 +305,7 @@ export default function ProjectPage() {
                             </div>
                           </Fade>
                         </Col>
+
                         <Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
                             <div
@@ -303,7 +318,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Guesstimates
+                                  Metrics
                                 </h5>
                                 <img src={votingdapp} alt={votingdapp} />
                                 <div className="project--showcaseBtn">
@@ -407,6 +422,7 @@ export default function ProjectPage() {
                             </div>
                           </Fade>
                         </Col>
+
                         <Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
                             <div
