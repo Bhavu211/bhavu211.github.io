@@ -10,6 +10,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Home from "./pages/home_page/HomePage";
 import Resume from "./pages/resume_page/ResumePage";
 import ProjectPage from "./pages/project_page/ProjectPage";
+import Case_Studies from "./pages/case_studies/CaseStudies";
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/footer/Footer";
 import About from "./components/aboutme/about/About";
@@ -70,6 +71,7 @@ function App() {
             <Route path="toolkit" element={<Toolkit />}></Route>
           </Route>
           <Route path="/projectpage" element={<ProjectPage />} />
+          <Route path="/CaseStudies" element={<Case_Studies />} />
           <Route path="/certificatepage" element={<CertificatePage />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/blogs" element={<Mediumblogs />} />
