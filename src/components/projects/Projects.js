@@ -148,7 +148,7 @@ export default function Projects() {
               className="certificate-description d-flex justify-content-start"
             >
               <Zoom left cascade>
-                <h1 className="aboutme-heading">Projects</h1>
+                <h1 className="aboutme-heading">Case Studies</h1>
               </Zoom>
             </Col>
             <Col md={3}>
@@ -163,7 +163,7 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Personal Portfolio
+                      RCA
                     </h5>
                     <img src={pp} alt={pp} />
                     <div className="project--showcaseBtn">
@@ -223,7 +223,181 @@ export default function Projects() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Online Voting System - DApp
+                                  Metrics
+                                </h5>
+                                <img src={votingdapp} alt={votingdapp} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://github.com/Bhavu211/Online-Voting-System-DApp"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                 Implementation of how Blockchain Technology is used for Our Indian Election Voting System. This is the approach to implement the complete Election System over the Blockchain serves online and it is completely Distributed and Decentralized.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                HTML, CSS, JavaScript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  Guesstimates
+                                </h5>
+                                <img src={votingdapp} alt={votingdapp} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://github.com/Bhavu211/Online-Voting-System-DApp"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                 Implementation of how Blockchain Technology is used for Our Indian Election Voting System. This is the approach to implement the complete Election System over the Blockchain serves online and it is completely Distributed and Decentralized.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                HTML, CSS, JavaScript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  Product Improvement
+                                </h5>
+                                <img src={votingdapp} alt={votingdapp} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://github.com/Bhavu211/Online-Voting-System-DApp"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                 Implementation of how Blockchain Technology is used for Our Indian Election Voting System. This is the approach to implement the complete Election System over the Blockchain serves online and it is completely Distributed and Decentralized.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                HTML, CSS, JavaScript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  Product Design
                                 </h5>
                                 <img src={votingdapp} alt={votingdapp} />
                                 <div className="project--showcaseBtn">
